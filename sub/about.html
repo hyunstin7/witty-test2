@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="KO">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <meta name="title" content="WITTY｜위티">
+    <meta name="type" content="Website">
+
+    <meta property="og:title" content="WITTY｜위티">
+    <meta property="og:description" content="WITTY｜위티">
+    <meta property="og:image" content="">
+
+    <title>WITTY｜위티</title>
+
+    <!-- 공통 css -->
+    <link rel="stylesheet" href="../css/reset_2.css">
+    <link rel="stylesheet" href="../css/header.css">
+
+    <!-- 개별 css -->
+    <link rel="stylesheet" href="css/about.css">
+
+    <!-- 공통 JS -->
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <!-- 카테고리 안 서브탑 이용 스크립트 -->
+    <script src="js/about.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollToPlugin.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/smooth-scrollbar.js"></script>
+    <!-- 해더 스크립트 -->
+    <script src="../js/header.js"></script>
+    
+
+</head>
+
+<body>
+    <!-- sitemap 시작 -->
+    <aside class="sitemap">
+        <a href="../index.html" class="sitemap__logo">
+            <img src="../img/logo.svg" alt="로고">
+        </a>
+
+        <button type="button" class="sitemap-close">
+            <img src="../img/sitemap_close.png" alt="사이트맵 닫기 버튼">
+        </button>
+
+        <ul class="nav-list nav-list--depth1">
+            <!-- 사업안내 -->
+            <li class="nav-list__item depth-1">
+                <a href="about.html" class="link">About us</a>
+            </li>
+            <!-- 하는 일 -->
+            <li class="nav-list__item depth-1">
+                <a href="work.html" class="link">Works</a>
+            </li>
+            <!-- 인사이트 -->
+            <li class="nav-list__item depth-1">
+                <a href="insight.html" class="link">Insight</a>
+            </li>
+            <!-- 상담받기 -->
+            <li class="nav-list__item depth-1">
+                <a href="#" class="link">Contact</a>
+            </li>
+        </ul>
+
+        <div class="contact-wrap type--sitemap">
+            <div class="link-list">
+                <div class="item">
+                    <a href="#" class="inner">
+                        <span class="icon icon-1">
+                            <img src="../img/project-icon.png" alt="프로젝트 문의하기 버튼">
+                        </span>
+                        <p class="txt"><span>프로젝트</span>문의하기</p>
+                    </a>
+                </div>
+                <div class="item">
+                    <a href="#" class="inner">
+                        <span class="icon icon-1">
+                            <img src="../img/brochure-icon.png" alt="프로젝트 문의하기 버튼">
+                        </span>
+                        <p class="txt"><span>브로슈어</span>신청하기</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!-- sitemap 끝 -->
+    <header id="header" class="header">
+        <div class="container header-wrap">
+            <div class="logo-box">
+                <a href="../index.html" class="logo" title="메인으로">
+                    <img src="../img/logo.svg" alt="로고">
+                </a>
+            </div>
+
+            <div class="nav__bg"></div>
+            <!-- S : navigation -->
+            <nav class="nav">
+                <ul class="nav-list nav-list--depth1">
+                    <!-- 사업안내 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="about.html" class="link">About us</a>
+                    </li>
+                    <!-- 하는 일 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="work.html" class="link">Works</a>
+                    </li>
+                    <!-- 인사이트 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="insight.html" class="link">Insight</a>
+                    </li>
+                    <!-- 상담받기 -->
+                    <li class="nav-list__item depth-1">
+                        <a href="#" class="link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- E : navigation -->
+            <button class="nav-mobile__btn sitemap-open" type="button">
+                <div class="nav-bg"></div>
+                <span class="bars bars--1"></span>
+                <span class="bars bars--2"></span>
+                <span class="bars bars--3"></span>
+            </button>
+        </div>
+    </header>
+
+    <div id="abuot">
+        <div id="scrollCont">
+                    <div id="wiBox" class="section">
+                        <div class="sec_wrap">
+                            <div class="bg_visual">
+                                <div class="visual_box">
+                                    <img src="img/about/sec01_vis.png">
+                                </div>
+                                <div class="wi_tit">
+                                    <div class="big_font wt_1">
+                                        <p class="wi_txt1 wi_txt">선택의 이유,&nbsp;</p>
+                                        <p class="wi_txt2 wi_txt">WITTY</p>
+                                    </div>
+                                    <div class="wi_txt wi_txt3">The First and New Provider</div>
+                                </div>
+                                <div class="scroll on">
+                                    <div class="scroll_ico">
+                                        <p class="scroll_ico_txt">
+                                            Scroll
+                                        </p>
+                                        <p class="scroll_ico_img">
+                                            <img src="img/about/scroll.svg" alt="scroll">
+                                            <span class="scroll_move"><img src="img/about/scroll_wheel.svg" alt="scroll_wheel"></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sec01" class="section">
+                        <div class="sec_wrap">
+                            <div class="top_text">
+                                <p class="text_box text1 noborder_text ">Good reasons</p>
+                                <p class="text_box text1 border_text ">Good reasons</p>
+                                <p class="text_box text2 ">for</p>
+                                <p class="text_box text3">Good results.</p>
+                            </div>
+                            <div class="mid_text">
+                                <p class="mid_text1">위티는 결여된 정보를 향한<br>수많은 시행착오와 고민들로부터<br>자유로워지고 싶은 기업들을 위해 만들어졌습니다.</p>
+                                <p class="mid_text2">제공자도, 제공받는 기업까지들도<br>온전한 결과에만 집중할 수 있도록<br>선택의 이유를 만듭니다.</p>
+                            </div>
+                            <p class="img_list img01"><img src="img/about/sec01_img01.png" alt="img01"></p>
+                            <p class="img_list img02"><img src="img/about/sec01_img02.png" alt="img02"></p>
+                            <p class="img_list img03"><img src="img/about/sec01_img03.png" alt="img03"></p>
+                            <p class="img_list img04"><img src="img/about/sec01_img04.png" alt="img04"></p>
+                        </div>
+                    </div>
+                    <div id="sec02" class="section">
+                        <div class="bg"></div>
+                        <div class="sec_wrap">
+                            <div class="sec_tit">
+                                <p class="big">단 하루의 문의,</p>
+                                <p class="big">그리고 수십가지의 데이터</p>
+                            </div>
+                            <div class="sec_cont">
+                                <div class="circle_img img_cont">
+                                    <img class="cir_img cir_img1" src="img/about/circle01.png" alt="">
+                                    <img class="cir_img cir_img2" src="img/about/circle02.png" alt="">
+                                    <img class="cir_img cir_img3" src="img/about/circle03.png" alt="">
+                                </div>
+                                <div class="yy_cont">
+                                    <div class="cont_list_wrap">
+                                        <div class="cont_list">
+                                            <p class="yy_p">
+                                                4,000만<span class="yy_bar"></span>
+                                            </p>
+                                            <div class="text_p">
+                                                국내 디지털 환경 이용자 데이터 최다 보유
+                                            </div>
+                                        </div>
+                                        <div class="cont_list">
+                                            <p class="yy_p">
+                                                2,500만명<span class="yy_bar"></span>
+                                            </p>
+                                            <div class="text_p">
+                                                위티가 보유한 데이터 사용자 수
+                                            </div>
+                                        </div>
+                                        <div class="cont_list">
+                                            <p class="yy_p">
+                                                95%<span class="yy_bar"></span>
+                                            </p>
+                                            <div class="text_p">
+                                                위티 엔드유저 만족도
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="sec03" class="section">
+                        <div class="sec_wrap">
+                            <div class="sec_tit">
+                                <div class="big">Our Witty</div>
+                                <div class="text1 small">위티가 선택되는 <p>이<span></span></p>
+                                    <p>유<span></span></p>
+                                </div>
+                                <div class="text2 small">혁신과 성장을 이루는 성공적인 이야기</div>
+                            </div>
+                            <div class="wiabout_box">
+                                <div class="wiabout_list wiabout_list1">
+                                    <p class="wiabout_img">
+                                        <img src="img/about/sec04_img01.png" alt="웃고있는 사람 얼굴">
+                                    </p>
+                                    <p class="wiabout_text">
+                                        우리는 고객들이 변화하는 비지니스 환경에서<br>
+                                        경쟁력을 유지하고 발전할 수 있도록 돕기 위해<br>
+                                        최상의 데이터 서비스를 제공합니다.
+                                    </p>
+                                    <p class="right_text">
+                                        Scientific proof
+                                    </p>
+                                </div>
+                                <div class="wiabout_list wiabout_list2">
+                                    <p class="wiabout_img">
+                                        <img src="img/about/sec04_img02.png" alt="연구하고있는 이미지">
+                                    </p>
+                                    <p class="wiabout_text">
+                                        다양한 산업 분야에서 폭 넓은 경험과 지식을<br>
+                                        갖추고 있으며 맞춤형 데이터 솔루션 및 첨단 분석 기술로<br>
+                                        고객들에게 가치있는 인사이트를 제공합니다.
+                                        
+                                    </p>
+                                    <p class="right_text">
+                                        Aesthetic proof
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="title">
+                                <p>위티는 지속적인 협력으로 미래를 개척하며</p>
+                                <p>당신의 성공을 응원하고 지지할 것입니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body></html>
